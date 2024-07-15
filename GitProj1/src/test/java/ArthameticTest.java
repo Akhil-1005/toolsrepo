@@ -15,8 +15,8 @@ public class ArthameticTest {
 	public void testWithPostiveNumber() {
 		Arthametic ar=new Arthametic();
 	
-		int actual=ar.sum(10, 100);
-		int expected=110;
+		int actual=ar.sum(20, 300);
+		int expected=320;
 		assertEquals(expected, actual);
 	
 	}
